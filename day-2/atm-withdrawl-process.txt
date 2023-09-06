@@ -1,0 +1,45 @@
+
+
+Write an instruction set for money withdrawl process x and y account
+
+
+
+# you have 4 ATMs near by
+"""
+    ATM 1- alsjdfklsl,
+    ATM 2- lskdjflkdj
+
+"""
+
+
+bicycle = 12312312312312312 # model number
+pin_1 = 1234
+pin_2 = 2345
+amount_1 = 1723.92
+amount_2 = 2134.023
+card_1 = Mark
+card_2 = Joseph
+address = "street:x,city:y,state:z"
+# address = "x,y,z"
+
+Driving-to-ATM
+    Take the bicycle
+    Drive to Nearby ATM
+    stop at the ATM
+
+ATM-withdrawl(input)
+    Insert the card_input 
+    Enter the pin pin_input
+    select the amount_input
+
+
+Driving-back-Home
+    Take the bicycle
+    Drive back to this address
+
+# follow this flow
+
+Driving-to-ATM 
+ATM-withdrawl(1)
+ATM-withdrawl(2)
+Driving back home

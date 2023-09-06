@@ -1,0 +1,62 @@
+Different types of programming languages. 
+    Low-level
+    Medium-level
+    High-level 
+
+What is Python ?
+
+    High level language
+    Python is preferred backend language
+
+
+source file 
+
+    |
+
+compiled (machine code)
+
+executes
+
+
+source file 
+
+    | 
+comiler (check for syntax errors)
+    |           (byte code)
+python virtual machine 
+    |
+    
+machine code
+
+
+
+
+Properties of Python 
+
+    Interpreted language
+    Treats everything as an object - python memory management 
+    dynamically typed language - 
+
+    a integer 10
+    b integer 20
+
+    a 10
+
+
+
+
+
+
+Syntax Rules
+
+Semantics
+
+Interactive mode programming 
+Script mode programming
+
+First line of Code
+
+Creating folder file in it from vscode
+
+Creating the first python source file
+

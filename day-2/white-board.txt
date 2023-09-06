@@ -1,0 +1,53 @@
+
+
+Set some rules (syntax)
+
+    1. Execute one instruction at a time
+    2. Code blocks {} , indentation 
+    3. Case sensitive
+
+some_Variable
+some_variable
+
+kid 1 - xYz
+kid 2 - XyZ
+xYz - kid1
+
+
+
+
+# we have 4 brushes with different colors - comments 
+variables
+loops
+condition 
+
+instruction set - XyZ
+brush_color = Red
+
+instruction set - xYz
+brush_color = Green
+
+Brushing Teeth
+    Pickup a {brush_color} color Brush
+    put paste on it
+    start brushing
+        do this for three minutes
+            move your brush against your teeth in up and down direction
+        clean your brush
+    drink some water
+
+Eating breakfast
+    Pickup plate
+    take some bread 
+    apply jam  
+    sit at the table 
+    Eat the breakfast
+    clean the plate
+    keep a napkin on your lap
+    
+
+
+
+
+semantics - it refers to the meaning associated to the instruction.
+
