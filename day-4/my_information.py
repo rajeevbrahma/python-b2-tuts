@@ -42,7 +42,6 @@ print ("Gender, Age",end="")
 print (" - ",end="")
 print (gender,age,sep=",")
 
-
 print ("IsMarried:Number of kids - ",end="")
 print (_is_married,age,sep=":")
 
