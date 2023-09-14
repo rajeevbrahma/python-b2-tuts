@@ -1,0 +1,23 @@
+list slicing
+string slicing
+
+keywords
+        Value Keywords - 
+
+            True, False, None
+    
+    Operator Keywords - 
+
+            and, or, not, in, is
+
+    will talk about only these two now
+
+operators
+
+dictionary
+set
+tuple
+
+conditions 
+loops
+functions
