@@ -76,10 +76,11 @@ john_bank_details = {
 }
 
 print (john_bank_details)
-# print ("Type of John bank details - ",type(john_bank_details))
-# print (john_bank_details['bank_names'])
-# print ("Type of John bank details, value associated to bank_names - ",type(john_bank_details['bank_names']))
-# print (john_bank_details['name'])
-# print ("Type of John bank details, value associated to name - ",type(john_bank_details['name']))
-# print (john_bank_details['amount'])
-# print ("Type of John bank details, value associated to amount - ",type(john_bank_details['amount']))
+print ("Type of John bank details - ",type(john_bank_details))
+print (john_bank_details['bank_names'])
+print ("Type of John bank details, value associated to bank_names - ",type(john_bank_details['bank_names']))
+print (john_bank_details['name'])
+print ("Type of John bank details, value associated to name - ",type(john_bank_details['name']))
+print (john_bank_details['amount'])
+print ("Type of John bank details, value associated to amount - ",type(john_bank_details['amount']))
+print   as
