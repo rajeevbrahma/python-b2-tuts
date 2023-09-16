@@ -83,4 +83,3 @@ print (john_bank_details['name'])
 print ("Type of John bank details, value associated to name - ",type(john_bank_details['name']))
 print (john_bank_details['amount'])
 print ("Type of John bank details, value associated to amount - ",type(john_bank_details['amount']))
-print   as
