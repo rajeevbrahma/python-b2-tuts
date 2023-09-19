@@ -1,0 +1,49 @@
+git status
+
+    tracked files 
+        modified / deleted
+
+    untracked files
+        list of files
+
+git add . <you are trying to track all the files which either newly introdcued to the folder or the changes
+that you have made on the existing files >
+
+git add git_test.txt errors.txt <you are selecting specific(s) to be tracked>
+
+git commit -m "<commit message here>"
+
+    will save these changes in your local version of your repository (folder)
+
+git push 
+
+    push the locally saved code to the cloud repository (folder)
+
+git pull
+
+    pulls the latest version of the code from the cloud repository (folder)
+
+Define Roles for the repositories
+
+    Ra - Admin / Maintain 
+    Nav - Read
+    Ana - Write
+
+
+UI APPLICATION (GitHub)
+    Which can hold multiple repositries (folders)
+    folders - source codes
+UI - GitLab 
+UI - BitBucket
+
+git command tool (collaborate / keep track of your file changes)
+who changed it
+what are the changes
+
+project X - v1 - released - locked
+project X - v2 - released - locked - 
+
+project X - v3 - released - locked - issue reported - stop this build
+rollback to previous version 
+
+
