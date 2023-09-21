@@ -1,0 +1,98 @@
+        Arithmetic operators
+                                +, -, *, 
+                                **,   - 2**3 => 2 to the power of 3  - Exponentiation
+                                /,    - 2/3  =>  Division which results quotient - division
+                                %,    - 3%2 => Division which results the remainder - Modulus
+                                 //   - 3//2 => Divion which results the floored quotient - floor division
+
+        Assignment operators
+                                =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
+        Comparison operators
+                                ==, != , > , < , >=, <=
+                                int,float,str,list
+                                
+        Logical operators
+                                and, or, not        
+        Identity operators
+                                is, is not
+        Membership operators
+                                in, not in
+        
+        Bitwise operators 
+                                & | ^ >> <<
+
+
+data-types:
+    Numbers
+    Strings
+    List 
+    Dictionary
+    Tuple
+    Set
+
+
+computer binary number
+ 2^1   2^0
+ ---------
+ 2      1               Human understandable number
+ --------
+ 0      0               - 0    
+ 0      1               - 1
+ 1      0               - 2
+ 1      1               - 3
+
+ 2^2  2^1  2^0
+ 4    2     1
+ 1    0     0     - 4
+ 1    1     1     - 7
+
+'a' ,'A'
+
+2 + 1
+2 * 3
+2 / 2
+
+Bit wise operations
+
+2 1
+-----
+1 0 - 2 
+0 1 - 1
+        | (symbol bitwise OR operation)
+--------
+1 1 - 3
+
+
+OR Truth Table
+0 0  - 0            3 > 3 or 3 > 3  False
+0 1  - 1            3 > 3 or 3 == 3 True
+1 0  - 1            3==3 or 3>3     True
+1 1  - 1            3==3 or 4>3     True
+
+4 + 3
+100
+011 (|)
+---------
+111
+
+AND Truth Table 
+
+0 0  - 0        3 > 3 and 3>3   False
+0 1  - 0        3>3 and 3==3    False
+1 0  - 0        3>2 and 3>3     False
+1 1  - 1        3>2 and 3>1     True
+
+
+0 1 0   << 1
+<-------
+-------------
+1 0 0
+
+----->
+>> 1
+0 1 0
+
+
+'hello'
+
+'h'
