@@ -4,6 +4,13 @@ NameError: name 'Anand' is not defined
 
 SyntaxError: can't assign to operator
 
-change made in Cloud space.
+TypeError: 'tuple' object does not support item assignment
 
-change from local
+operator in, not in error:
+    TypeError: argument of type 'int' is not iterable
+
+set access error:
+    TypeError: 'set' object is not subscriptable
+
+typecasting from string to float
+    ValueError: could not convert string to float: 'a'
