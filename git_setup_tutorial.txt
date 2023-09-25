@@ -1,0 +1,33 @@
+pre-requisites:
+    You should have the github account created with You
+Login:
+    please login and open settings and go to "ssh and gpg keys" section
+
+
+step 1 :
+    open https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+
+step 2 - open your terminal (Mac) / Git Bash (windows)
+step 3 - run the command 
+        ls -al ~/.ssh  -  Both Mac & windows users
+You should see the list of keys
+if you creating for the first time you wont have any keys listed
+step 4 - run 
+    Note : Use the same email id that you have used to signup github 
+    ssh-keygen -t rsa -b 4096 -C rajeevbrahma@hotmail.com
+
+    You can choose the file name, but if you are doing it for the first time leave it 
+    like that dont give any name since i have already one file existed with the 
+    same name i am giving a new name.
+    Note: remember to give the entire file path, if you are giving any new name
+
+    You can give the password for the key
+    its optional 
+
+    If you give any password, it means whenever you want to push the code or pull the code
+    from/to remote repository you have to get authenticated using this password 
+
+step 5:
+    pbcopy < ~/.ssh/id_demo_rsa.pub
+
+now we have successfully pulled the code using the ssh key we have just created. 
