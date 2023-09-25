@@ -14,3 +14,6 @@ set access error:
 
 typecasting from string to float
     ValueError: could not convert string to float: 'a'
+
+When you try modify string using index 
+    TypeError: 'str' object does not support item assignment
