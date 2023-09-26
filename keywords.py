@@ -12,7 +12,7 @@ Operator        | and, or, not, in, is      | These are used to perform
                 |                           | logical operations  
 Control flow    | if, elif, else            | These used to make 
                 |                           | conditional statements
-                |                           |
+iterative       | for,while                 |
                 |                           |
                 |                           |
                 |                           |
