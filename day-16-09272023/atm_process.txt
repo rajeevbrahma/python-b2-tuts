@@ -1,0 +1,20 @@
+
+Define the ATM process 
+
+Features
+   ATM Should be available 24x7
+   ATM should be capable of performing
+        1. Withdrawl
+        2. Deposit
+        3. Deposit by bank it self (ATM Money, physical)
+        4. Display list of last 3 transactions
+
+Conditions:
+    1. For withdrawl - user can be from any bank 
+    2. For Deposit customer should be of same Bank as ATM
+    3. A user can withdrawl only 1000 per account within 24hrs
+
+    
+
+
+
