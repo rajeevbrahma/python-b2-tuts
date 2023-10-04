@@ -23,3 +23,7 @@ when you try to access a key which is not present in the dictionary
 
 when you try to add a literal numeric to a list
     TypeError: 'int' object is not iterable
+
+when you try to access a variable which is defined witin the local space but not in global space
+    print (number_1 * number_2)
+    NameError: name 'number_2' is not defined

@@ -18,7 +18,8 @@ iterative       | for,while                 |
                 |                           |
                 |  pass                     | We can use it in empty control flow / 
                                               empty functions / empty classes
+                |  def                      | We can use it to define a function
 
-
-"""
+                | global
+""" 
 
