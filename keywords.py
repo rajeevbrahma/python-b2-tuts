@@ -16,7 +16,8 @@ iterative       | for,while                 |
                 |                           |
                 |                           |
                 |                           |
-                |                           |
+                |  pass                     | We can use it in empty control flow / 
+                                              empty functions / empty classes
 
 
 """
