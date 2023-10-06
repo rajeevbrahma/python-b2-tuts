@@ -68,4 +68,18 @@ def produce_even_numbers(number):
         number+=2
         produce_even_numbers(number)
 
-print (produce_even_numbers(2))
+# print (produce_even_numbers(2))
+
+
+def produce_even_numbers_2(start_number,end_number):
+    """ produce even numbers """
+    print (start_number)
+    if (start_number<end_number):
+        start_number += 2
+        produce_even_numbers_2(start_number,end_number)
+
+
+end_number = 10
+start_number = 2
+print (produce_even_numbers_2(start_number,end_number))
+
