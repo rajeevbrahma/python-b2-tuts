@@ -1,34 +1,49 @@
-
-# 10,9,.....1
-
-# def recursive_func_example():
-#     recursive_func_example()
-
+""" Recursive functions examples """
+# Squares of numbers in reverse order from the given number
 def print_squares_of_numbers_in_reverse_order(number):
     """ recursive example"""
     print (number**2)
-    if (number > 1):
+    if number > 1:
         number -= 1
         print_squares_of_numbers_in_reverse_order(number)
-
-print_squares_of_numbers_in_reverse_order(10)
-
-
-# for i in range(10,0,-1):
-#     print (i**2)
+GIVEN_INPUT = 10
+print_squares_of_numbers_in_reverse_order(GIVEN_INPUT)
 
 
-# factorial of number 
-
+# Factorial of a given number
 def factorial_of_a_number(number):
     """ factorial of a number """
-    if (number>1):
-        return number + factorial_of_a_number(number-1)
+    if number>1:
+        return number * factorial_of_a_number(number-1)
     return 1
 
+# Factorial of a given number version 2
+factorial_result = 1
+def factorial_of_a_number_2(factorial_result_at_every_instance,number):
+    """ factorial of a number 2   """
+    global factorial_result
+    factorial_result_at_every_instance *= number
+    factorial_result = factorial_result_at_every_instance
+    if number>1:
+        factorial_of_a_number_2(factorial_result_at_every_instance,number-1)
 
-# 3*2*3*4*5
-print (factorial_of_a_number(10))
+factorial_result_at_every_instance = 1 
+factorial_of_a_number_2(factorial_result_at_every_instance,5)
+print (factorial_result)
+
+# # Factorial of a given number version 3 - printing 
+# def factorial_of_a_number_3(factorial_result,number):
+#     """ factorial of a number 2   """
+#     factorial_result *= number
+#     if (number>1):
+#         factorial_of_a_number_3(factorial_result,number-1)
+#     return factorial_result
+
+# factorial_result = 1 
+# print (factorial_of_a_number_3(factorial_result,5))
+
+
+
     # """
     #     [5*4*3*2*1] factorial
 
@@ -53,6 +68,4 @@ def produce_even_numbers(number):
         number+=2
         produce_even_numbers(number)
 
-# print (produce_even_numbers(2))
-
-
+print (produce_even_numbers(2))
