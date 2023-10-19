@@ -1,0 +1,51 @@
+"""
+
+Keywords:
+    Python Keywords are some predefined and reserved words 
+    in Python that have special meanings.
+
+----------------------------------------------------------------------
+Type            |      Keywords             |        Description
+----------------------------------------------------------------------
+Value           | True, False, None         | These has some value
+Operator        | and,or                    | we can use to perform a logical operation
+                |                           | and to check if a value is in a list, tuple,
+                |                           | etc. and to check if two variables are the same object
+                | in                        | we can use to check if a value is in a list, tuple, etc.
+                | is                        | we can use to check if two variables are the same object
+                | not                       | we can use to reverse the result of a condition           
+Control flow    | if, elif, else            | we can use to define a conditional statement
+                |                           | conditional statements
+Iterative       | for,while                 | These are used for iterative statements like loops
+                | break                     | we can use to break a loop
+                | continue                  | we can use to continue a loop by skipping the current instance
+                                              of the loop
+Exception       | try, except, finally      | These are used to handle exceptions
+Import          | import                    | we can use to import modules 
+                | from                      | we can use to import specific functions from a module
+                | as                        | we can use to rename a module / function / class    
+                |  pass                     | We can use it in empty control flow / 
+                                              empty functions / empty classes
+Functions       |  def                      | We can use it to define a function
+                | lambda                    | we can use to create an anonymous function
+                | return                    | we can use to return a value from a function
+
+
+Variable        | global                    | we can use to define a variable as globale variable
+                | assert                    | we can use to check if a condition is true
+                | class                     | we can use to define a class
+                | del                       | we can use to delete a variable / object
+                | elif                      | we can use to define a conditional statement
+                | else                      | we can use to define a conditional statement
+                | except                    | we can use to handle exceptions
+                | exec                      | we can use to execute a string as code
+                | nonlocal                  | we can use to define a variable as nonlocal
+                | raise                     | we can use to raise an exception
+                | with                      | we can use to define a context manager
+                | yield                     | we can use to return a generator
+
+
+      
+
+""" 
+
