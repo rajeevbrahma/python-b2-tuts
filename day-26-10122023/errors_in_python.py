@@ -63,30 +63,92 @@ print (dictionary_variable["name"]) # John
 # print (dictionary_variable["address"]) # KeyError: 'address' - Uncomment this line to see the error
 
 
-# # ZeroDivisionError
+# ZeroDivisionError
 # print(5 / 0) # ZeroDivisionError: division by zero - Uncomment this line to see the error
 
 
-# # ModuleNotFoundError
-# import hello
+# ImportError
+# from hello import hello   # Uncomment this line to see the error 
 
-# # ImportError
-# from hello import hello
+# KeyboardInterrupt
+# while True:           #   Uncomment this line to see the error
+#     print ("press ctrl + c or ctrl +z to stop") # Uncomment this line to see the error
 
-# # KeyboardInterrupt
-# while True:
-#     pass
+# AttributeError          
+# print("Hello".age)  # Uncomment this line to see the error
 
 
-
-# # AssertionError
-# # assert 5 < 3
-
-# # AttributeError
-# # print("Hello".age)
+# AssertionError
+# assert 5 < 3          # Uncomment this line to see the error
 
 # # EOFError
 # input("Enter your name: ")
 
-# # FileNotFoundError
-# # print(open("hello.txt"))
+# FileNotFoundError
+# print(open("hello.txt"))          # Uncomment this line to see the error
+
+
+
+list_variable = [1,2,3,4,5,'hello']
+
+
+
+
+# 
+
+class PythonClass:
+
+    variable_1 = None
+    variable_2 = None
+
+    def meth_1():
+        pass 
+
+
+class Robot:
+
+    def __init__(self,location):
+        self.location = location
+        self.__greet()
+
+    def __greet(self):
+        print ("Hello There!!! ")
+
+    def anti_theft_mode(self):
+        print ("Anti theft activated for ", self.location)
+
+    def servant_mode(self,instrucion):
+        pass 
+
+sunil_robot = Robot("Sunil address")
+kiran_robot = Robot("Kiran addresss")
+joh_robot = Robot("Joh address")
+
+sunil_robot.anti_theft_mode()
+kiran_robot.anti_theft_mode()
+joh_robot.anti_theft_mode()
+
+
+
+class_1 = PythonClass()
+# class_1.variable_3            # Uncomment this line to see the AttributeError
+
+class_2 = PythonClass()
+class_3 = PythonClass()
+
+
+list_variable = [12,3,4]
+# list_variable.append()      # Uncomment to see the TypeError
+
+
+
+
+# ModuleNotFoundError
+# import hello          # Uncomment this line to see the error
+
+
+# import calculator       # Uncomment this line to see the error ModulenotfoundError
+
+
+# from Calc import add, sub, div # Uncomment this line to see the ImportError
+
