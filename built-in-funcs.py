@@ -9,7 +9,7 @@ len() # would give me the length of string, list
 ord( ) # returns the ascii number of an alphabet or symbol
 sum( ) # returns the sum of numeric list elements
 help( ) # helps you with the documentation of anything in python
-
+open() # helps you open the files
 # Examples
 
 print (ord("a"))
