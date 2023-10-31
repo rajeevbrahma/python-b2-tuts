@@ -2,107 +2,34 @@ import csv
 from csv import writer, reader
 
 
-
+# ----- We can create and write to a csv file without using csv module -----
 # Create a file
-# open("book.csv","x").close()
-
-
-# # Open the file
-# csv_file = open("movie_names.csv","w")
-# csv_file.write("MovieName,Director,ReleaseYear\n")
-# csv_file.write("The Shawshank Redemption,Frank Darabont,1994\n")
-# csv_file.write("The Godfather,Francis Ford Coppola,1972\n")
-
-# csv_file.close()
-
-# # Open the file
-# csv_file = open("book.csv","r")
-# print (csv_file.read())
-# csv_file.close()
-
-# with csv module 
-
-# Error examples
+open("csv_file_created_without_using_csv_module.csv","x").close()
 
 
 # Open the file
-try:
-    csv_file = open("movie_names.csv","w+")
-# except FileExistsError as e:
-#     print (e)
-except FileNotFoundError as e:
-    print (e)
+csv_file = open("csv_file_created_without_using_csv_module.csv","w")
+csv_file.write("MovieName,Director,ReleaseYear\n")
+csv_file.write("The Shawshank Redemption,Frank Darabont,1994\n")
+csv_file.write("The Godfather,Francis Ford Coppola,1972\n")
 
-csv_writer = writer(csv_file)
-csv_writer.writerow(["MovieName","Director","ReleaseYear"])
-csv_writer.writerow(["The Shawshank Redemption","Frank Darabont","1994"])
-csv_writer.writerow(["The Godfather","Francis Ford Coppola","1972"])
-
-# csv_file.close()
-
-# csv_file = open("movie_names.csv","r")
-# csv_file.seek(0)
-csv_reader = reader(csv_file)
-# print (csv_reader)
-
-for row in csv_reader:
-    print (row)
-
-
-# try:
-#     csv_writer.writerow(["The Shawshank Redemption","Frank Darabont"])
-# except ValueError as e:
-#     print (e)
-
-# csv_writer.writerow(["The Godfather","Francis Ford Coppola","1972"])
 csv_file.close()
 
-# # Open the file
-# csv_file = open("book.csv","r")
-# csv_reader = csv.reader(csv_file)
-# for row in csv_reader:
-#     print (row)
+# Open the file
+csv_file = open("csv_file_created_without_using_csv_module.csv","r")
+print (csv_file.read())
+csv_file.close()
 
-# csv_file.close()
 
-# # with csv module and list of dictionaries
-
-# # Open the file
-# csv_file = open("book.csv","w")
-# csv_writer = csv.DictWriter(csv_file,fieldnames=["MovieName","Director","ReleaseYear"])
-# csv_writer.writeheader()
-# csv_writer.writerow({"MovieName":"The Shawshank Redemption","Director":"Frank Darabont","ReleaseYear":"1994"})
-# try:
-#     csv_writer.writerow({'1':'2',"MovieName":"The Godfather","Director":"Francis Ford Coppola","ReleaseYear":"1972"})
-# except Exception as e:
-#     print (e,type(e))
-# csv_file.close()
-
-# # Open the file
-# csv_file = open("book.csv","r")
-# csv_reader = csv.DictReader(csv_file)
-# for row in csv_reader:
-#     print (row)
-
-# csv_file.close()
-
-# # with csv module and list of dictionaries
-
-# # Open the file
-# csv_file = open("book.csv","w")
-# csv_writer = csv.DictWriter(csv_file,fieldnames=["MovieName","Director","ReleaseYear"])
-# csv_writer.writeheader()
-
-# books = [{"MovieName":"The Shawshank Redemption","Director":"Frank Darabont","ReleaseYear":"1994"}]
-# books.append({"MovieName":"The Godfather","Director":"Francis Ford Coppola","ReleaseYear":"1972"})
-# csv_writer.writerows(books)
-# csv_file.close()
-
-# # Open the file
-# csv_file = open("book.csv","r")
-# csv_reader = csv.DictReader(csv_file)
-# for row in csv_reader:
-#     print (row)
-
-# csv_file.close()
-
+# csv methods
+# writerow()    # writes a row to the csv file
+# writerows()   # writes multiple rows to the csv file
+# writer()    # returns a writer object which is used to write to the csv file
+# reader()  # returns a reader object which is used to read from the csv file
+# DictWriter()  # returns a DictWriter object which is used to write to the csv file
+# DictReader()  # returns a DictReader object which is used to read from the csv file
+# writeheader() # writes the fieldnames as the first row
+# line_num # gives the line number
+# seek()    # sets the file's current position to the number specified
+# tell()   # returns the file's current position
+# close() # closes the file
